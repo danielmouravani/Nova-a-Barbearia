@@ -13,51 +13,111 @@ export const COMPANY_LOGO = 'https://assets.zyrosite.com/ALpeJ4P1RzcZJLwB/image-
 export const PLANS = [
   {
     id: 1,
-    title: 'Novaça Club Corte',
-    price: '74,90',
-    icon: Scissors, 
+    title: 'NOVAÇA WEEK ( cabelo+ barba )',
+    price: '99,99',
+    icon: Flame,
     features: [
-      'Agendamento de segunda a sábado',
-      'Corte de cabelo quando quiser',
-      'Pezinho quando quiser',
-      'Desconto em produtos e serviços'
+      { text: 'Corte ilimitado', included: true },
+      { text: 'Barba ilimitada', included: true },
+      { text: 'Desconto em produtos', included: true },
+      { text: 'Descontos em serviços extras', included: true },
+      { text: 'Agendamento ilimitado de seg a sab', included: false },
+      { text: 'Agendamento de seg a qua', included: true }
     ],
     isPopular: false,
-    buttonText: 'Assine Agora',
+    buttonText: 'Comprar',
     buttonVariant: 'brown' as const,
-    link: 'https://celcash.celcoin.com.br/landingpage6107477/planos/assinar/novaca-club-corte/2'
+    link: '#'
   },
   {
     id: 2,
-    title: 'Novaça Club Barba',
-    price: '79,90',
-    icon: User, 
+    title: 'NOVAÇA CLUB KIDS',
+    price: '84,90',
+    icon: User,
     features: [
-      'Agendamento de segunda a sábado',
-      'Faça a barba quando quiser',
-      'Desconto em produtos e serviços extras'
+      { text: 'Corte ilimitado', included: true },
+      { text: 'Barba ilimitada', included: false },
+      { text: 'Desconto em produtos', included: true },
+      { text: 'Descontos em serviços extras', included: true },
+      { text: 'Agendamento ilimitado de seg a sab', included: true },
+      { text: 'Agendamento de seg a qua', included: true }
     ],
     isPopular: false,
-    buttonText: 'Assine Agora',
+    buttonText: 'Comprar',
+    buttonVariant: 'brown' as const,
+    link: '#'
+  },
+  {
+    id: 3,
+    title: 'NOVAÇA WEEK ( corte )',
+    price: '54,90',
+    icon: Scissors,
+    features: [
+      { text: 'Corte ilimitado', included: true },
+      { text: 'Barba ilimitada', included: false },
+      { text: 'Desconto em produtos', included: true },
+      { text: 'Descontos em serviços extras', included: true },
+      { text: 'Agendamento ilimitado de seg a sab', included: false },
+      { text: 'Agendamento de seg a qua', included: true }
+    ],
+    isPopular: false,
+    buttonText: 'Comprar',
+    buttonVariant: 'brown' as const,
+    link: '#'
+  },
+  {
+    id: 4,
+    title: 'NOVAÇA CLUB- Cabelo+ Barba',
+    price: '134,90',
+    icon: Flame,
+    features: [
+      { text: 'Corte ilimitado', included: true },
+      { text: 'Barba ilimitada', included: true },
+      { text: 'Desconto em produtos', included: true },
+      { text: 'Descontos em serviços extras', included: true },
+      { text: 'Agendamento ilimitado de seg a sab', included: true },
+      { text: 'Agendamento de seg a qua', included: true }
+    ],
+    isPopular: true,
+    buttonText: 'Comprar',
+    buttonVariant: 'cream' as const,
+    link: 'https://celcash.celcoin.com.br/landingpage6107477/planos/assinar/novaca-club-cabelo-barba/1'
+  },
+  {
+    id: 5,
+    title: 'NOVAÇA CLUB- Barba',
+    price: '79,90',
+    icon: User,
+    features: [
+      { text: 'Corte ilimitado', included: false },
+      { text: 'Barba ilimitada', included: true },
+      { text: 'Desconto em produtos', included: true },
+      { text: 'Descontos em serviços extras', included: true },
+      { text: 'Agendamento ilimitado de seg a sab', included: true },
+      { text: 'Agendamento de seg a qua', included: true }
+    ],
+    isPopular: false,
+    buttonText: 'Comprar',
     buttonVariant: 'brown' as const,
     link: 'https://celcash.celcoin.com.br/landingpage6107477/planos/assinar/novaca-club-barba/3'
   },
   {
-    id: 3,
-    title: 'Novaça Club Completo',
-    price: '134,90',
-    icon: Flame,
+    id: 6,
+    title: 'NOVAÇA CLUB- Corte',
+    price: '74,90',
+    icon: Scissors,
     features: [
-      'Agendamento de segunda a sábado',
-      'Corte de cabelo quando quiser',
-      'Faça a barba quando quiser',
-      'Pezinho quando quiser',
-      'Descontos em produtos e serviços extras'
+      { text: 'Corte ilimitado', included: true },
+      { text: 'Barba ilimitada', included: false },
+      { text: 'Desconto em produtos', included: true },
+      { text: 'Descontos em serviços extras', included: true },
+      { text: 'Agendamento ilimitado de seg a sab', included: true },
+      { text: 'Agendamento de seg a qua', included: true }
     ],
-    isPopular: true,
-    buttonText: 'Assine Agora',
-    buttonVariant: 'cream' as const,
-    link: 'https://celcash.celcoin.com.br/landingpage6107477/planos/assinar/novaca-club-cabelo-barba/1'
+    isPopular: false,
+    buttonText: 'Comprar',
+    buttonVariant: 'brown' as const,
+    link: 'https://celcash.celcoin.com.br/landingpage6107477/planos/assinar/novaca-club-corte/2'
   }
 ];
 
@@ -82,8 +142,8 @@ export const BARBERS = [
   },
   {
     id: 4,
-    name: 'Robson Oliveira',
+    name: 'Pedro Moreira',
     instagram: '@rbs_stylebarber',
-    image: 'https://assets.zyrosite.com/ALpeJ4P1RzcZJLwB/whatsapp-image-2025-11-18-at-14.58.12-q1mejF8OTrcJXJRb.jpeg'
+    image: 'https://assets.zyrosite.com/ALpeJ4P1RzcZJLwB/whatsapp-image-2026-03-20-at-12.35.31-3K6pm2YiNEcJeC94.jpeg'
   }
 ];
