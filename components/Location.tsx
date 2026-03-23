@@ -29,18 +29,28 @@ const Location: React.FC = () => {
             ></iframe>
             
             {/* Custom Map Label Overlay (Simulating screenshot look) */}
-            <div className="absolute top-4 left-4 bg-white text-black p-3 rounded shadow-lg max-w-[250px]">
+            <a 
+              href="https://maps.app.goo.gl/Y3GYBGEVVisLrUaF8" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="absolute top-4 left-4 bg-white text-black p-3 rounded shadow-lg max-w-[250px] hover:bg-gray-50 transition-colors group"
+            >
                <p className="font-bold text-xs uppercase mb-1">R. Jataí, 94-150 - Rio Imbariê</p>
                <p className="text-[10px] text-gray-600">Duque de Caxias - RJ, 25266-040</p>
-               <a href="https://www.google.com/maps" target="_blank" className="text-[10px] text-blue-600 mt-1 block hover:underline">Ver mapa ampliado</a>
-            </div>
+               <span className="text-[10px] text-blue-600 mt-1 block group-hover:underline">Ver mapa ampliado</span>
+            </a>
           </div>
 
           {/* Info Cards */}
           <div className="flex flex-col gap-6">
             {/* Address */}
-            <div className="bg-[#1a0b05] border border-nova-brown rounded-xl p-8 flex items-start gap-6 hover:border-nova-gold transition-colors">
-              <div className="p-3 bg-[#2e1209] rounded-full text-nova-gold shrink-0">
+            <a 
+              href="https://maps.app.goo.gl/Y3GYBGEVVisLrUaF8" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="bg-[#1a0b05] border border-nova-brown rounded-xl p-8 flex items-start gap-6 hover:border-nova-gold transition-colors group"
+            >
+              <div className="p-3 bg-[#2e1209] rounded-full text-nova-gold shrink-0 group-hover:bg-[#3d180c] transition-colors">
                 <MapPin className="w-6 h-6" />
               </div>
               <div>
@@ -48,7 +58,7 @@ const Location: React.FC = () => {
                 <p className="text-nova-gold font-medium text-lg">R. Jataí, 94-150 - Rio Imbariê</p>
                 <p className="text-gray-400">Duque de Caxias - RJ, 25266-040</p>
               </div>
-            </div>
+            </a>
 
             {/* Hours */}
             <div className="bg-[#1a0b05] border border-nova-brown rounded-xl p-8 flex items-start gap-6 hover:border-nova-gold transition-colors">

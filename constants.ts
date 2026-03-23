@@ -27,7 +27,7 @@ export const PLANS = [
     isPopular: false,
     buttonText: 'Comprar',
     buttonVariant: 'brown' as const,
-    link: '#'
+    link: 'https://celcash.celcoin.com.br/landingpage6107477/planos/assinar/novaca-week-cabelo-barba-/5'
   },
   {
     id: 2,
@@ -45,7 +45,7 @@ export const PLANS = [
     isPopular: false,
     buttonText: 'Comprar',
     buttonVariant: 'brown' as const,
-    link: '#'
+    link: 'https://celcash.celcoin.com.br/landingpage6107477/planos/assinar/novaca-club-kids/6'
   },
   {
     id: 3,
@@ -63,7 +63,7 @@ export const PLANS = [
     isPopular: false,
     buttonText: 'Comprar',
     buttonVariant: 'brown' as const,
-    link: '#'
+    link: 'https://celcash.celcoin.com.br/landingpage6107477/planos/assinar/novaca-week-corte-/4'
   },
   {
     id: 4,
