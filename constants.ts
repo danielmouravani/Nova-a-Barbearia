@@ -130,9 +130,9 @@ export const BARBERS = [
   },
   {
     id: 2,
-    name: 'Emanuel Alves',
+    name: 'Gabriel Barbosa',
     instagram: '@emanuel_barber01',
-    image: 'https://assets.zyrosite.com/ALpeJ4P1RzcZJLwB/whatsapp-image-2025-10-30-at-13.51.53-2-BEkwNslRFa0ripls.jpeg'
+    image: 'https://res.cloudinary.com/dm2aqydrq/image/upload/v1777391336/e9qzq6ggdrlcgjkyp8ij.jpg'
   },
   {
     id: 3,
