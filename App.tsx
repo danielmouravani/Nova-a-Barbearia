@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Pricing from './components/Pricing';
@@ -8,6 +8,20 @@ import WorkWithUs from './components/WorkWithUs';
 import ChatWidget from './components/ChatWidget';
 
 const App: React.FC = () => {
+  useEffect(() => {
+    // Handle initial hash in URL
+    if (window.location.hash) {
+      const id = window.location.hash.substring(1);
+      const element = document.getElementById(id);
+      if (element) {
+        // Small delay to ensure rendering is complete
+        setTimeout(() => {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }, 100);
+      }
+    }
+  }, []);
+
   return (
     <div className="min-h-screen bg-[#0f0502] text-white font-sans selection:bg-nova-gold selection:text-nova-dark">
       <Header />
