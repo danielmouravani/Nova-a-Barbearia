@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import Pricing from './components/Pricing';
 import Barbers from './components/Barbers';
 import Location from './components/Location';
+import WorkWithUs from './components/WorkWithUs';
 import ChatWidget from './components/ChatWidget';
 
 const App: React.FC = () => {
@@ -16,6 +17,7 @@ const App: React.FC = () => {
         <Pricing />
         <Barbers />
         <Location />
+        <WorkWithUs />
       </main>
 
       {/* Simple Footer */}
