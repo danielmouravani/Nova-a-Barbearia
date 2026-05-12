@@ -32,7 +32,7 @@ const WorkWithUs: React.FC = () => {
 
   if (status === 'success') {
     return (
-      <section id="trabalhe-conosco" className="py-24 bg-[#0f0502] text-white">
+      <section id="trabalhe-conosco" className="py-24 pt-32 bg-[#0f0502] text-white">
         <div className="container mx-auto px-4 md:px-8">
           <div className="max-w-xl mx-auto text-center bg-[#1a0b05] border border-nova-gold p-12 rounded-2xl shadow-2xl">
             <motion.div
@@ -60,7 +60,7 @@ const WorkWithUs: React.FC = () => {
   }
 
   return (
-    <section id="trabalhe-conosco" className="py-24 bg-[#0f0502] text-white">
+    <section id="trabalhe-conosco" className="py-24 pt-32 bg-[#0f0502] text-white min-h-screen">
       <div className="container mx-auto px-4 md:px-8">
         {/* Header Section */}
         <div className="max-w-4xl mx-auto text-center mb-16">

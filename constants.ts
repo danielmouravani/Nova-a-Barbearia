@@ -5,7 +5,7 @@ export const NAV_LINKS = [
   { label: 'Planos', href: '#planos' },
   { label: 'Barbeiros', href: '#barbeiros' },
   { label: 'Localização', href: '#localizacao' },
-  { label: 'Trabalhe Conosco', href: '#trabalhe-conosco' },
+  { label: 'Trabalhe Conosco', href: '/trabalhe-conosco' },
 ];
 
 // SUBSTITUA ESTE LINK PELA URL DA SUA LOGO PNG (Fundo Transparente)
